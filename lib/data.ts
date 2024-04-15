@@ -8,6 +8,12 @@ import codeChroniclesImg from '@/public/codeChronicles.jpg';
 import discordBotImg from '@/public/raiderTrackerBot.png';
 import trackMyGainzImg from '@/public/trackMyGainzApp.png';
 
+export const socialMediaLinks = {
+  linkedin: 'https://linkedin.com/in/eli-manzo',
+  github: 'https://github.com/elimanzo',
+  leetcode: 'https://leetcode.com/elimanzo/',
+} as const;
+
 export const links = [
   {
     name: 'Home',
