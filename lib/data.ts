@@ -1,7 +1,12 @@
 import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
-import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
+import { TbBrandReactNative } from 'react-icons/tb';
+
+import calSPEEDImg from '@/public/calSPEED.png';
+import codeChroniclesImg from '@/public/codeChronicles.jpg';
+import discordBotImg from '@/public/raiderTrackerBot.png';
+import trackMyGainzImg from '@/public/trackMyGainzApp.png';
 
 export const links = [
   {
@@ -95,7 +100,7 @@ export const experiencesData = [
       ],
     },
     tags: ['React Native', 'Nest.js', 'Graph QL', 'MongoDB', 'Rest'],
-    icon: React.createElement(FaReact),
+    icon: React.createElement(TbBrandReactNative),
     date: '2023 - present',
   },
 ] as const;
@@ -111,7 +116,7 @@ export const projectsAndActivitiesData = [
       ],
     },
     tags: ['Java', 'Javascript', 'Android Development'],
-    imageUrl: null,
+    imageUrl: calSPEEDImg,
     gitHubUrl: null,
   },
   {
@@ -128,7 +133,7 @@ export const projectsAndActivitiesData = [
       ],
     },
     tags: ['React', 'Redux', 'Express', 'MongoDB', 'Material-UI'],
-    imageUrl: null,
+    imageUrl: trackMyGainzImg,
     gitHubUrl: null,
   },
   {
@@ -142,7 +147,7 @@ export const projectsAndActivitiesData = [
       ],
     },
     tags: ['TypeScript/JavaScript', 'Discord.js', 'Node.js'],
-    imageUrl: null,
+    imageUrl: discordBotImg,
     gitHubUrl: null,
   },
   {
@@ -157,7 +162,7 @@ export const projectsAndActivitiesData = [
       ],
     },
     tags: ['TypeScript', 'React Native', 'Data Structures and Algorithms'],
-    imageUrl: null,
+    imageUrl: codeChroniclesImg,
     gitHubUrl: null,
   },
 ] as const;
