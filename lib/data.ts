@@ -148,7 +148,8 @@ export const projectsAndActivitiesData = [
 
 export const skillsData = [
   {
-    languages: [
+    type: 'Languages',
+    data: [
       'JavaScript',
       'TypeScript',
       'HTML',
@@ -159,7 +160,10 @@ export const skillsData = [
       'Java',
       'C++',
     ],
-    frameworks: [
+  },
+  {
+    type: 'Frameworks',
+    data: [
       'React',
       'React Native',
       'Angular',
@@ -173,7 +177,13 @@ export const skillsData = [
       'Spring Boot',
       'Tailwind',
     ],
-    developerTools: ['Git', 'Docker', 'Asana', 'Jira'],
-    foreignLanguages: ['Spanish'],
+  },
+  {
+    type: 'Developer Tools',
+    data: ['Git', 'Docker', 'Asana', 'Jira'],
+  },
+  {
+    type: 'Foreign Languages',
+    data: ['Spanish'],
   },
 ] as const;
