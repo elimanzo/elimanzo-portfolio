@@ -123,7 +123,7 @@ export const projectsAndActivitiesData = [
     title: 'Discord Raid Tracker',
     description:
       'Built a Discord bot that creates and tracks user data and hosted events. The bot includes message interactions, thread posting, slash command handling, and event scheduling automation.',
-    tags: ['TypeScript/JavaScript', 'Discord.js', 'Node.js'],
+    tags: ['TypeScript / JavaScript', 'Discord.js', 'Node.js'],
     imageUrl: discordBotImg,
     gitHubUrl: 'https://github.com/elimanzo/Raider-Tracker-Economy-Bot',
   },

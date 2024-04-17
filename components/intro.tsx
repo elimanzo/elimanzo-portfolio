@@ -11,11 +11,17 @@ import { HiDownload } from 'react-icons/hi';
 import { SiLeetcode } from 'react-icons/si';
 
 import { socialMediaLinks } from '@/lib/data';
+import { useSectionInView } from '@/lib/hooks';
 import portraitSplash from '@/public/eliProfilePicSplash.jpg';
 
 export default function Intro() {
+  const { ref } = useSectionInView('Home', 0.5);
+
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
+    <section
+      ref={ref}
+      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+      id="home">
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
