@@ -82,7 +82,7 @@ export const experiencesData = [
       'WordPress plugins',
       'Figma',
       'React',
-      'TypeScript/JavaScript',
+      'TypeScript / JavaScript',
       'HTML',
       'CSS',
       'PHP',

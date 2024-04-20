@@ -1,4 +1,4 @@
-import { RefObject, useEffect } from 'react';
+import { RefObject, useEffect, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 
 import { useActiveSectionContext } from '@/context/active-section-context';
