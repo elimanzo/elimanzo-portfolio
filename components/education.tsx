@@ -4,25 +4,25 @@ import React from 'react';
 import { VerticalTimeline } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
-import { experiencesData } from '@/lib/data';
+import { educationData } from '@/lib/data';
 import { useSectionInView } from '@/lib/hooks';
-import { ExperienceItem } from '@/lib/types';
+import { EducationItem } from '@/lib/types';
 
-import ExerciseTimelineElement from './experience-timeline-element';
+import EducationTimelineElement from './education-timeline-element';
 import SectionHeading from './section-heading';
 
 export default function Experience() {
-  const { ref } = useSectionInView('Experience');
+  const { ref } = useSectionInView('Education');
 
   return (
     <section
       ref={ref}
-      id="experience"
+      id="education"
       className="mt-40 max-w-[70rem] scroll-mt-28 ">
-      <SectionHeading>Experience</SectionHeading>
+      <SectionHeading>Education</SectionHeading>
       <VerticalTimeline lineColor="">
-        {experiencesData.map((item: ExperienceItem, index) => (
-          <ExerciseTimelineElement key={index} item={item} />
+        {educationData.map((item: EducationItem, index) => (
+          <EducationTimelineElement key={index} item={item} />
         ))}
       </VerticalTimeline>
     </section>

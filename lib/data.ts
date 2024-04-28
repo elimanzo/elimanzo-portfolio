@@ -24,16 +24,16 @@ export const links = [
     hash: '#about',
   },
   {
-    name: 'Projects',
-    hash: '#projects',
+    name: 'Experience',
+    hash: '#experience',
   },
   {
     name: 'Skills',
     hash: '#skills',
   },
   {
-    name: 'Experience',
-    hash: '#experience',
+    name: 'Projects',
+    hash: '#projects',
   },
   {
     name: 'Education',
@@ -50,7 +50,7 @@ export const educationData = [
     title: 'Hartnell College',
     location: 'Salinas, CA',
     description:
-      'Associate of Science, Math and Physics | Summa Cum Laude | GPA: 3.95/4.0',
+      'Associate of Science, Math and Physics | Summa Cum Laude | GPA: 3.95 / 4.0',
     icon: React.createElement(LuGraduationCap),
     date: '2014 - 2017',
   },
@@ -58,11 +58,11 @@ export const educationData = [
     title: 'California State University, Monterey Bay',
     location: 'Seaside, CA',
     description:
-      'Bachelor of Science, Computer Science | Summa Cum Laude |  GPA: 3.93/4.0',
+      'Bachelor of Science, Computer Science  Summa Cum Laude | GPA: 3.93 / 4.0',
     icon: React.createElement(LuGraduationCap),
     date: '2017 - 2019',
   },
-];
+] as const;
 
 export const experiencesData = [
   {
