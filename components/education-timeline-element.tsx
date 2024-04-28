@@ -42,8 +42,10 @@ export default function EducationTimelineElement({
           fontSize: '1.5rem',
         }}>
         <div className="flex flex-wrap">
-          <h3 className="font-semibold capitalize">{item.title}</h3>
-          <p className="font-normal !mt-0">{item.location}</p>
+          <div>
+            <h3 className="font-semibold capitalize">{item.title}</h3>
+            <p className="font-normal !mt-0">{item.location}</p>
+          </div>
           <p className="!mt-2 !font-normal text-gray-700 dark:text-white/75">
             {item.description}
           </p>
