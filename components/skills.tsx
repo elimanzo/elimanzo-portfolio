@@ -37,7 +37,7 @@ export default function Skills() {
           className="flex flex-wrap justify-left gap-2 text-lg text-gray-800 pb-6">
           <>
             <motion.li
-              className="bg-gray-900 text-white border border-black/[0.1] rounded-xl px-5 py-3"
+              className="bg-gray-900 text-white borderBlack rounded-xl px-5 py-3"
               key={skills.type}
               variants={fadeInAnimationsVariants}
               initial="initial"
@@ -48,7 +48,7 @@ export default function Skills() {
             </motion.li>
             {skills.data.map((skill, dataIndex) => (
               <motion.li
-                className="bg-white border border-black/[0.1] rounded-xl px-5 py-3"
+                className="bg-white border borderBlack rounded-xl px-5 py-3"
                 key={dataIndex}
                 variants={fadeInAnimationsVariants}
                 initial="initial"
