@@ -40,7 +40,7 @@ export default function ExerciseTimelineElement({
           background: theme === 'light' ? 'white' : 'rgba(255, 255, 255, 0.15)',
           fontSize: '1.5rem',
         }}>
-        <div className="max-h-[15rem] overflow-y-auto">
+        <div className="scrollbar-thin dark:hover:scrollbar-thumb-sky-500 dark:active:scrollbar-thumb-sky-400 dark:scrollbar-thumb-slate-700 dark:scrollbar-track-slate-300 max-h-[15rem] overflow-y-auto">
           <h3 className="font-semibold capitalize">{item.companyName}</h3>
           <p className="font-normal !mt-0">{item.location}</p>
           <ul className="!mt-2 !font-normal text-gray-700 list-disc list-inside dark:text-white/75">
