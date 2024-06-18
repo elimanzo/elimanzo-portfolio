@@ -8,7 +8,7 @@ import { experiencesData } from '@/lib/data';
 import { useSectionInView } from '@/lib/hooks';
 import { ExperienceItem } from '@/lib/types';
 
-import ExerciseTimelineElement from './experience-timeline-element';
+import ExperienceTimelineElement from './experience-timeline-element';
 import SectionHeading from './section-heading';
 
 export default function Experience() {
@@ -22,7 +22,7 @@ export default function Experience() {
       <SectionHeading>Experience</SectionHeading>
       <VerticalTimeline lineColor="">
         {experiencesData.map((item: ExperienceItem, index) => (
-          <ExerciseTimelineElement key={index} item={item} />
+          <ExperienceTimelineElement key={index} item={item} />
         ))}
       </VerticalTimeline>
     </section>

@@ -9,7 +9,7 @@ type ExperienceTimelineElementProps = {
   item: ExperienceItem;
 };
 
-export default function ExerciseTimelineElement({
+export default function ExperienceTimelineElement({
   item,
 }: ExperienceTimelineElementProps) {
   const { ref, inView } = useInView({
