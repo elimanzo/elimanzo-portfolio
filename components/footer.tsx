@@ -11,10 +11,6 @@ export default function Footer() {
         & Server Actions), TypeScript, Tailwind CSS, Framer Motion, React Email
         & Resend, Vercel hosting
       </p>
-      <p className="text-xs">
-        Thanks to Bytegrad for inspiration for this porfolio and Md Tanvirul
-        Haque for the assets.
-      </p>
     </footer>
   );
 }

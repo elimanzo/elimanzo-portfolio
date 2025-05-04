@@ -69,8 +69,37 @@ export const educationData = [
 
 export const experiencesData = [
   {
+    companyName: 'Gather',
+    jobTitle: 'Product Engineer - Contract',
+    location: 'Remote',
+    description: {
+      list: [
+        'Built immersive ambient UX features with spatial audio cues, automatic audio muting on tab switch, and facepile indicators to distinguish between direct and surrounding speakers.',
+        ' Integrated an outfit picker for wearable selection, enabling personalized avatar customization.',
+        'Prototyped teleportation mechanics to improve virtual office navigation and reduce time to join meetings.',
+        'Built custom UI components with Phaser React DOM Elements to display office area inspection panels and desk nameplates, allowing users to identify coworker spaces and determine the type of area they’re in.',
+        'Implemented interactive notifications for meeting reminders and user engagement (e.g., follow/lead requests).',
+        'Developed a custom audio slider to control background ambient conversations.',
+        'Added error boundaries across the application to handle runtime errors and maintain app stability.',
+      ],
+    },
+    tags: [
+      'React',
+      'MobX',
+      'Phaser',
+      'Jest',
+      'Figma',
+      'TypeScript / JavaScript',
+      'Vanilla Extract',
+      'Linear',
+      'Graphite',
+    ],
+    icon: React.createElement(CgWorkAlt),
+    date: 'Aug. 2023 - Nov. 2024',
+  },
+  {
     companyName: 'Digital Nest - bizzNest',
-    jobTitle: 'Web Developer Internship',
+    jobTitle: 'Web Developer - Internship',
     location: 'Salinas, CA',
     description: {
       list: [
@@ -95,11 +124,11 @@ export const experiencesData = [
       'Asana',
     ],
     icon: React.createElement(CgWorkAlt),
-    date: '2023 - present',
+    date: 'Aug. 2023 - Nov. 2024',
   },
   {
     companyName: 'Reflex Integration Through Play (RITP)',
-    jobTitle: 'React Native Software Engineer Apprenticeship',
+    jobTitle: 'Software Engineer - Apprenticeship',
     location: 'Remote',
     description: {
       list: [
@@ -114,7 +143,7 @@ export const experiencesData = [
     },
     tags: ['React Native', 'Nest.js', 'Graph QL', 'MongoDB', 'Rest'],
     icon: React.createElement(TbBrandReactNative),
-    date: '2023 - present',
+    date: 'Nov. 2023 - Jun. 2024',
   },
 ] as const;
 
@@ -124,7 +153,10 @@ export const projectsAndActivitiesData = [
     description: {
       list: [
         'Collaborated with a team of engineers and a project manager to develop an app, that simplifies recreational soccer management processes and experiences for both league administrators and participants.',
-        'Created a custom form builder inspired by Typeform that allows users to manage and customize forms for their leagues. The form builder includes features like drag and drop, conditional logic, form validation, and analytics, displaying form responses in a table and chart format.',
+        'Created a custom form builder inspired by Typeform that allows users to manage and customize forms for their leagues. The form builder includes features like drag and drop, conditional logic, form validation, Stripe integration, and analytics, displaying form responses in a table and chart format.',
+        'Developed a digital ID card system to replace physical cards, reducing card creation time by 20% and streamlining player check-ins for games and practices.',
+        'Created team roster dashboard, enabling soccer league managers to organize teams and track player participation.',
+        'Implemented centralized logging with Sentry, allowing developers to monitor, and respond to production errors in real time.',
       ],
     },
     tags: [
@@ -223,38 +255,34 @@ export const projectsAndActivitiesData = [
 export const skillsData = [
   {
     type: 'Languages',
-    data: [
-      'JavaScript',
-      'TypeScript',
-      'HTML',
-      'CSS',
-      'Python 3',
-      'PHP',
-      'SQL (MySQL)',
-      'Java',
-      'C++',
-    ],
+    data: ['JavaScript', 'TypeScript', 'HTML', 'CSS', 'SQL (MySQL)', 'PHP'],
   },
   {
-    type: 'Frameworks',
+    type: 'Frameworks and Libraries',
     data: [
       'React',
       'React Native',
       'Angular',
       'Node.js',
+      'MobX',
+      'Redux',
+      'Prisma',
+      'Sequelize',
       'MongoDB',
       'GraphQL',
       'Nest.js',
-      'Redux',
       'Next.js',
       'Express',
       'Spring Boot',
+      'WordPress',
       'Tailwind',
+      'Vanilla Extract',
+      'Phaser',
     ],
   },
   {
     type: 'Developer Tools',
-    data: ['Git', 'Docker', 'Asana', 'Jira'],
+    data: ['Git', 'Graphite', 'Asana', 'Jira', 'Linear', 'DBeaver', 'Docker'],
   },
   {
     type: 'Foreign Languages',

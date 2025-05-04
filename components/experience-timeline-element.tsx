@@ -43,6 +43,7 @@ export default function ExperienceTimelineElement({
         <div className="scrollbar-thin dark:hover:scrollbar-thumb-sky-500 dark:active:scrollbar-thumb-sky-400 dark:scrollbar-thumb-slate-700 dark:scrollbar-track-slate-300 max-h-[15rem] overflow-y-auto">
           <h3 className="font-semibold capitalize">{item.companyName}</h3>
           <p className="font-normal !mt-0">{item.location}</p>
+          <p className="font-normal !mt-0">{item.jobTitle}</p>
           <ul className="!mt-2 !font-normal text-gray-700 list-disc list-inside dark:text-white/75">
             {item.description.list.map((bullet, index) => (
               <li className="gap-2 mb-3" key={index}>
