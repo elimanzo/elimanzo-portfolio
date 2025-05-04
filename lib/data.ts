@@ -132,9 +132,9 @@ export const experiencesData = [
     location: 'Remote',
     description: {
       list: [
-        'RITP is a treatment planning and implementation method for Occupational Therapists working with special needs kids. I am working on the companion app, along with 3 other engineers and an engineering manager.',
-        'Transformed their physical memory game into a digital version within the app, and seamlessly integrated animations. The digital version of the game includes animations, music, and enables users to select from a broader range of excercises.',
-        'Enhanced exercise search functionality by implementing trie data structure with caching mechanisms, resulting in a 40% improvement in search speed',
+        'RITP is a treatment planning and implementation method for Occupational Therapists working with special needs kids.',
+        'Transformed their physical memory game into a digital version within the app, and seamlessly integrated animations. The digital version of the game includes animations, music, and enables users to select from a broader range of exercises.',
+        'Enhanced exercise search functionality by implementing trie data structure with caching mechanisms, resulting in a 10% improvement in search speed',
         'Implemented new designed playlist UX flow for users to edit their playlist and share with others.',
         'Proposed subscription UX flow, and implemented subscription plans (free trial, monthly, and yearly).',
         'Enhanced user onboarding with NUX (New User Experiences) APIs, tooltips, integration tests, and documentation. This included creating user NUX schemas, mutations, and queries, enabling the retrieval of NUX data from MongoDB to the client. These NUX APIs track tutorials, tooltips, and new user interactions across server and client environments. ',
