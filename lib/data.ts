@@ -95,7 +95,7 @@ export const experiencesData = [
       'Graphite',
     ],
     icon: React.createElement(CgWorkAlt),
-    date: 'Aug. 2023 - Nov. 2024',
+    date: 'Dec. 2024 - Mar. 2025',
   },
   {
     companyName: 'Digital Nest - bizzNest',
