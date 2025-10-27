@@ -68,6 +68,24 @@ export const educationData = [
 ] as const;
 
 export const experiencesData = [
+    {
+    companyName: 'TED-AI',
+    jobTitle: 'Software Engineer - Part-Time',
+    location: 'San Francisco, CA',
+    description: {
+      list: [
+        'Developed and maintained React/Next.js pages for TED AI 2025, collaborating with design and marketing teams to deliver a scalable, high-traffic event platform.',
+      ],
+    },
+    tags: [
+      'React',
+      'Next.js',
+      'Figma',
+      'TypeScript / JavaScript',
+    ],
+    icon: React.createElement(CgWorkAlt),
+    date: 'Sep. 2025 - Present',
+  },
   {
     companyName: 'Gather',
     jobTitle: 'Product Engineer - Contract',
@@ -77,7 +95,7 @@ export const experiencesData = [
         'Built immersive ambient UX features with spatial audio cues, automatic audio muting on tab switch, and facepile indicators to distinguish between direct and surrounding speakers.',
         ' Integrated an outfit picker for wearable selection, enabling personalized avatar customization.',
         'Prototyped teleportation mechanics to improve virtual office navigation and reduce time to join meetings.',
-        'Built custom UI components with Phaser React DOM Elements to display office area inspection panels and desk nameplates, allowing users to identify coworker spaces and determine the type of area they’re in.',
+        'Built custom UI components with Phaser React DOM Elements to display office area inspection panels and desk nameplates, allowing users to identify coworker spaces and determine the type of area they\'re in.',
         'Implemented interactive notifications for meeting reminders and user engagement (e.g., follow/lead requests).',
         'Developed a custom audio slider to control background ambient conversations.',
         'Added error boundaries across the application to handle runtime errors and maintain app stability.',
@@ -99,7 +117,7 @@ export const experiencesData = [
   },
   {
     companyName: 'Digital Nest - bizzNest',
-    jobTitle: 'Web Developer - Internship',
+    jobTitle: 'Web Developer - Associate',
     location: 'Salinas, CA',
     description: {
       list: [
