@@ -12,7 +12,7 @@ import ExperienceTimelineElement from './experience-timeline-element';
 import SectionHeading from './section-heading';
 
 export default function Experience() {
-  const { ref } = useSectionInView('Experience');
+  const { ref } = useSectionInView('Experience', 0.25);
 
   return (
     <section
