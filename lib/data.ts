@@ -15,7 +15,7 @@ export const socialMediaLinks = {
   linkedin: 'https://linkedin.com/in/eli-manzo',
   github: 'https://github.com/elimanzo',
   leetcode: 'https://leetcode.com/elimanzo/',
-  email: '96manzo.eli@gmail.com',
+  email: 'eli.manzo.dev@gmail.com',
   phone: '831-258-9649',
 } as const;
 
